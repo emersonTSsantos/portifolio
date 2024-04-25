@@ -4,18 +4,26 @@ import { P } from '../../components/Paragrafo/styles'
 export const Descricao = styled(P)`
   margin-top: 24px;
   margin-bottom: 30px;
+  margin-left: 10%;
 
   @media (max-width: 768px) {
-    margin-left: 17%;
-    font-size: 30px;
+    margin-left: 0;
+    text-align: center;
   }
 `
+export const Info = styled.div`
+  @media (max-width: 768px) {
+    margin-left: 0;
+    text-align: center;
+  }
+`
+
 export const BotaoTema = styled.button`
   width: 100%;
   border-radius: 12px;
   padding: 8px;
   color: #eee;
-  font-size: 10px;
+  font-size: 16px;
   font-weight: bold;
   background-color: #282a35;
   cursor: pointer;

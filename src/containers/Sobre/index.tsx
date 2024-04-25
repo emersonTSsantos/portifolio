@@ -4,11 +4,18 @@ import { GithubSecao } from './styles'
 
 const Sobre = () => (
   <section>
-    <Titulo fontSize={16}>Sobre mim</Titulo>
+    <Titulo fontSize={26}>Sobre mim</Titulo>
     <Paragrafo tipo="secundario">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam
-      sunt, sed, itaque, excepturi quam obcaecati officia dolorem possimus rem
-      cupiditate? Cumque facilis quis ratione ducimus autem delectus labore in?
+      Olá, bem vindo ao meu portifólio! Obrigado pela oportunidade de me
+      apresentar.
+    </Paragrafo>
+    <Paragrafo tipo="secundario">
+      Estou vivendo a transição de carreira para programação e busco uma
+      oportunidade de estágio. Quero colocar em prática os conhecimentos que
+      adquiri e tenho um enorme desejo de aprender muito mais com sua equipe!
+      Tenho certeza que com o conhecimento que possuo vou agregar muito também.
+      Me coloco à disposição para participar do processo seletivo, e certamente
+      você não vai se decepcionar.
     </Paragrafo>
     <GithubSecao>
       <img src="https://github-readme-stats.vercel.app/api?username=emersonTSsantos&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />

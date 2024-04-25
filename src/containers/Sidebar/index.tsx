@@ -2,18 +2,20 @@ import Avatar from '../../components/Avatar'
 import Paragrafo from '../../components/Paragrafo'
 import Titulo from '../../components/titulo'
 
-import { Descricao, BotaoTema, SidebarContainer, Redes } from './styles'
+import { Descricao, BotaoTema, SidebarContainer, Redes, Info } from './styles'
 
 const Sidebar = () => (
   <aside>
     <SidebarContainer>
       <Avatar />
-      <Titulo fontSize={20}>Emerson Teixeira</Titulo>
-      <Paragrafo tipo="secundario" fontSize={16}>
-        emersonTSsantos
-      </Paragrafo>
-      <Descricao tipo="principal" fontSize={12}>
-        Dev Fullstack
+      <Info>
+        <Titulo fontSize={15}>Emerson Teixeira</Titulo>
+        <Paragrafo tipo="secundario" fontSize={16}>
+          emersonTSsantos
+        </Paragrafo>
+      </Info>
+      <Descricao tipo="principal" fontSize={20}>
+        Dev Junior
       </Descricao>
       <Redes>
         <li>
