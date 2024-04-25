@@ -31,12 +31,7 @@ const Sidebar = () => (
           <a
             href="https://www.linkedin.com/in/emerson-teixeira-/"
             target="blank"
-          >
-            <img
-              src="https://media.sanjuan8.com/p/8acd0bb7bdf6439d2b291aa4635f5c6c/adjuntos/303/imagenes/008/777/0008777885/1200x0/smart/pngwingcompng.png"
-              alt="incone whatsapp"
-            />
-          </a>
+          ></a>
           <a
             className="github"
             href="https://github.com/emersonTSsantos"
