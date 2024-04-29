@@ -16,6 +16,7 @@ export const Lista = styled.ul`
 `
 export const TituloLista = styled.div`
   text-align: center;
+  margin-top: 40px;
 `
 export const DivBotoes = styled.div`
   display: flex;
@@ -34,15 +35,15 @@ export const DivBotoes = styled.div`
     margin-top: 30px;
     cursor: pointer;
     border-bottom: 5px solid transparent;
-    border-color: #003785;
-    color: #282a35;
+    border-color: ${(props) => props.theme.corBordaBotaoNav};
+    color: ${(props) => props.theme.corPrincipal};
 
     @media (max-width: 768px) {
       font-size: 13px;
     }
 
     &:hover {
-      border-color: #81c9fa;
+      border-color: ${(props) => props.theme.corHoverBordaNav};
     }
 
     &:focus {
@@ -58,15 +59,3 @@ export const DivBotoes = styled.div`
     }
   }
 `
-
-// export const Botoes = styled.button`
-//   background-color: red;
-//   border: none;
-//   background-color: transparent;
-//   border: none; /* Remova as outras bordas */
-//   border-bottom: 2px solid blue; /* Apenas a borda inferior será azul */
-//   color: inherit; /* Use a cor de texto padrão do elemento pai */
-//   padding: 0.5em 1em;
-//   cursor: pointer;
-//   transition: border-bottom-color 0.3s;
-// `

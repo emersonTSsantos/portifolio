@@ -27,7 +27,7 @@ export const Projeto = ({
     </DesProjeto>
 
     <LinkBotao href={link} target="_blank" rel="noopener noreferrer">
-      Vizualizar
+      Visualizar
     </LinkBotao>
   </Card>
 )

@@ -7,6 +7,11 @@ export const FotoPerfil = styled.img`
   cursor: pointer;
   transition: transform 0.3s ease;
 
+  @media (max-width: 768px) {
+    width: 250px;
+    margin-left: 8%;
+  }
+
   &:hover {
     transform: scale(1.1);
   }

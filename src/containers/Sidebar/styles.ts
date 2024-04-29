@@ -22,10 +22,10 @@ export const BotaoTema = styled.button`
   width: 100%;
   border-radius: 12px;
   padding: 8px;
-  color: #eee;
+  color: ${(props) => props.theme.corDeFundo};
   font-size: 16px;
   font-weight: bold;
-  background-color: #282a35;
+  background-color: ${(props) => props.theme.corPrincipal};
   cursor: pointer;
 
   @media (max-width: 768px) {
