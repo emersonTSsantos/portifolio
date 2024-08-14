@@ -41,7 +41,7 @@ const projetosData = [
     imagemAlt: 'Lista de Contatos',
     titulo: 'Lista de Contatos',
     descricao:
-      'Densenvolvido com React, utilização do Redux para controle de estado',
+      'Desenvolvido com React, utilização do Redux para controle de estado',
     link: 'https://lista-de-contatos-com-react-six.vercel.app/',
   },
   {
