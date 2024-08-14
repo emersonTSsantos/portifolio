@@ -3,13 +3,14 @@ import Projeto from '../../components/projeto'
 import Titulo from '../../components/titulo'
 import Imc from '../../images/baixados.png'
 import Disney from '../../images/disney.png'
-import Tarefas from '../../images/gerenciador.png'
+import Tarefas from '../../images/lista_de_tarefas.png'
 import Evento from '../../images/EventoMexicano.png'
 import Media from '../../images/MediadeNotas.png'
 import Avatar from '../../images/avatar.png'
 import Perfil from '../../images/perfilGithub.png'
 import Portifolio from '../../images/Portifolio.png'
 import Restaurante from '../../images/restaurante.png'
+import Contato from '../../images/Contatos.png'
 
 import { Lista, TituloLista, DivBotoes } from './styles'
 
@@ -32,8 +33,16 @@ const projetosData = [
     imagemSrc: Tarefas,
     imagemAlt: 'Gerenciador de tarefas',
     titulo: 'Gerenciador de tarefas',
-    descricao: 'Projeto desenvolvido utilizando o VueJS',
-    link: 'https://todo-vue-eight.vercel.app/',
+    descricao: 'Projeto desenvolvido utilizando o REACT, e Redux',
+    link: 'https://minha-lista-de-tarefas-lemon.vercel.app/',
+  },
+  {
+    imagemSrc: Contato,
+    imagemAlt: 'Lista de Contatos',
+    titulo: 'Lista de Contatos',
+    descricao:
+      'Densenvolvido com React, utilização do Redux para controle de estado',
+    link: 'https://lista-de-contatos-com-react-six.vercel.app/',
   },
   {
     imagemSrc: Evento,
@@ -61,8 +70,7 @@ const projetosData = [
     imagemSrc: Perfil,
     imagemAlt: 'Perfil Github',
     titulo: 'Perfil Github',
-    descricao:
-      'Projeto na qual você consome uma API externa e pesquisa por um usuário',
+    descricao: 'Consume uma API externa e pesquise por um usuário no GitHub',
     link: 'https://github-perfil-emerson.vercel.app/',
   },
   {
@@ -108,8 +116,8 @@ const Projetos = () => {
       </TituloLista>
 
       <DivBotoes>
-        <button onClick={handlePaginaAnterior}>Melhores Projetos</button>
-        <button onClick={handleProximaPagina}>Outros</button>
+        <button onClick={handlePaginaAnterior}>Página 1</button>
+        <button onClick={handleProximaPagina}>Página 2</button>
       </DivBotoes>
 
       <Lista>
