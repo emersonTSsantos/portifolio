@@ -6,7 +6,7 @@ const Sobre = () => (
   <section>
     <Titulo fontSize={26}>Sobre mim</Titulo>
     <Paragrafo tipo="secundario">
-      Olá, bem vindo ao meu portifólio! Obrigado pela oportunidade de me
+      Olá, bem vindo ao meu portfólio! Obrigado pela oportunidade de me
       apresentar.
     </Paragrafo>
     <Paragrafo tipo="secundario">
