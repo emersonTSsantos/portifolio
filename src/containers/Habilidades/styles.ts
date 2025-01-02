@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ListaHards = styled.div`
-  background-color: ${(props) => props.theme.corFundoHards};
+  background-color: transparent;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0px;

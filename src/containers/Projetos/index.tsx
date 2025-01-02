@@ -74,6 +74,14 @@ const projetosData = [
     link: 'https://minha-lista-de-tarefas-lemon.vercel.app/',
   },
   {
+    imagemSrc: Contato,
+    imagemAlt: 'Lista de Contatos',
+    titulo: 'Lista de Contatos',
+    descricao:
+      'Desenvolvido com React, utilização do Redux para controle de estado',
+    link: 'https://lista-de-contatos-com-react-six.vercel.app/',
+  },
+  {
     imagemSrc: Evento,
     imagemAlt: 'Evento Mexicano',
     titulo: 'Evento Mexicano',
