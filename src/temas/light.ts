@@ -7,7 +7,7 @@ const temaLight = {
   corBordaBotaoNav: '#003785',
   corHoverBordaNav: '#81c9fa',
   corTextoLink: '#fff',
-  corFundoHards: '#9fa3a9',
+  corFundoHards: '#fff',
 }
 
 export default temaLight

@@ -3,23 +3,61 @@ import Projeto from '../../components/projeto'
 import Titulo from '../../components/titulo'
 import Imc from '../../images/baixados.png'
 import Disney from '../../images/disney.png'
-import Tarefas from '../../images/gerenciador.png'
+import Tarefas from '../../images/lista_de_tarefas.png'
 import Evento from '../../images/EventoMexicano.png'
 import Media from '../../images/MediadeNotas.png'
 import Avatar from '../../images/avatar.png'
 import Perfil from '../../images/perfilGithub.png'
-import Portifolio from '../../images/Portifolio.png'
+import efood from '../../images/efood.png'
 import Restaurante from '../../images/restaurante.png'
+import Contato from '../../images/Contatos.png'
+import Games from '../../images/lojadegames.jpeg'
 
 import { Lista, TituloLista, DivBotoes } from './styles'
 
 const projetosData = [
+  {
+    imagemSrc: efood,
+    imagemAlt: 'Projeto do resturante efood',
+    titulo: 'Efood Delivery',
+    descricao: 'Projeto desenvolvido utilizando react, redux e ajax',
+    link: 'https://efood-silk-delta.vercel.app/',
+  },
+  {
+    imagemSrc: Games,
+    imagemAlt: 'Projeto do eplay',
+    titulo: 'Loja Eplay',
+    descricao: 'Projeto desenvolvido utilizando react, redux e ajax',
+    link: 'https://loja-de-games-delta.vercel.app/',
+  },
   {
     imagemSrc: Disney,
     imagemAlt: 'Clone da Disney',
     titulo: 'Clone da Disney',
     descricao: 'Projeto desenvolvido utilizando o gulp com SASS e o metodo BEM',
     link: 'https://clone-disneyplus-kppm.vercel.app/',
+  },
+  {
+    imagemSrc: Restaurante,
+    imagemAlt: 'Restaurante',
+    titulo: 'Restaurante',
+    descricao: 'Projeto utilizando o Bootstrap, trabalhando com o DOM e CSS',
+    link: 'https://projeto-restaurante-beta.vercel.app/',
+  },
+  {
+    imagemSrc: Avatar,
+    imagemAlt: 'Fã Avatar 2',
+    titulo: 'Fã de Avatar 2',
+    descricao: 'Projeto Desenvolvido com o gulp e trabalhando com videos',
+    link: 'https://site-avatar2.vercel.app/',
+  },
+  {
+    imagemSrc: Contato,
+    imagemAlt: 'Lista de Contatos',
+    titulo: 'Lista de Contatos',
+    descricao:
+      'Desenvolvido com React, utilização do Redux para controle de estado',
+    link: 'https://lista-de-contatos-com-react-six.vercel.app/',
   },
   {
     imagemSrc: Imc,
@@ -32,8 +70,8 @@ const projetosData = [
     imagemSrc: Tarefas,
     imagemAlt: 'Gerenciador de tarefas',
     titulo: 'Gerenciador de tarefas',
-    descricao: 'Projeto desenvolvido utilizando o VueJS',
-    link: 'https://todo-vue-eight.vercel.app/',
+    descricao: 'Projeto desenvolvido utilizando o REACT, e Redux',
+    link: 'https://minha-lista-de-tarefas-lemon.vercel.app/',
   },
   {
     imagemSrc: Evento,
@@ -44,25 +82,10 @@ const projetosData = [
     link: 'https://evento-mexicano2.vercel.app/',
   },
   {
-    imagemSrc: Avatar,
-    imagemAlt: 'Fã Avatar 2',
-    titulo: 'Fã de Avatar 2',
-    descricao: 'Projeto Desenvolvido com o gulp e trabalhando com videos',
-    link: 'https://site-avatar2.vercel.app/',
-  },
-  {
-    imagemSrc: Restaurante,
-    imagemAlt: 'Restaurante',
-    titulo: 'Restaurante',
-    descricao: 'Projeto utilizando o Bootstrap, trabalhando com o DOM e CSS',
-    link: 'https://projeto-restaurante-beta.vercel.app/',
-  },
-  {
     imagemSrc: Perfil,
     imagemAlt: 'Perfil Github',
     titulo: 'Perfil Github',
-    descricao:
-      'Projeto na qual você consome uma API externa e pesquisa por um usuário',
+    descricao: 'Consume uma API externa e pesquise por um usuário no GitHub',
     link: 'https://github-perfil-emerson.vercel.app/',
   },
   {
@@ -71,13 +94,6 @@ const projetosData = [
     titulo: 'Media do aluno',
     descricao: 'Projeto desenvolvido HTML, CSS E JavaScript, manipulando o DOM',
     link: 'https://calculadora-medias-navy.vercel.app/',
-  },
-  {
-    imagemSrc: Portifolio,
-    imagemAlt: 'Primeiro Portifolio',
-    titulo: 'Primeiro Portifolio',
-    descricao: 'Projeto desenvolvido utilizando o Bootstrap',
-    link: 'https://meu-portifolio-five-rho.vercel.app/',
   },
 ]
 
@@ -108,8 +124,8 @@ const Projetos = () => {
       </TituloLista>
 
       <DivBotoes>
-        <button onClick={handlePaginaAnterior}>Melhores Projetos</button>
-        <button onClick={handleProximaPagina}>Outros</button>
+        <button onClick={handlePaginaAnterior}>Página 1</button>
+        <button onClick={handleProximaPagina}>Página 2</button>
       </DivBotoes>
 
       <Lista>

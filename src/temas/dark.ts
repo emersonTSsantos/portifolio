@@ -7,7 +7,7 @@ const temaDark = {
   corBordaBotaoNav: '#003785',
   corHoverBordaNav: '#81c9fa',
   corTextoLink: '#fff',
-  corFundoHards: '#1f2124',
+  corFundoHards: '#000',
 }
 
 export default temaDark
@@ -21,5 +21,5 @@ export type Tema = {
   corBordaBotaoNav: string
   corHoverBordaNav: string
   corTextoLink: '#fff'
-  corFundoHards: '#1f2124'
+  corFundoHards: '#000'
 }

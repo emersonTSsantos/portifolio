@@ -1,4 +1,3 @@
-import React from 'react'
 import Titulo from '../../components/titulo'
 import { TituloLista } from '../Projetos/styles'
 import { ListaHards } from './styles'

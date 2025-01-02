@@ -7,9 +7,7 @@ export const ListaHards = styled.div`
   gap: 0px;
   row-gap: 80px;
   max-width: 100%;
-  margin-left: 0;
   margin-top: 60px;
-  border-radius: 60px;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr;

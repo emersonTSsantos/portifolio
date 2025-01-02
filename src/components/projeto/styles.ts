@@ -21,12 +21,12 @@ export const LinkBotao = styled.a`
   padding-bottom: 2px;
   padding-top: 2px;
   display: inline-block;
-  border-radius: 10px;
+  border-radius: 6px;
   margin-top: 24px;
   margin-bottom: 15px;
   cursor: pointer;
-  width: 50%;
-  margin-left: 22%;
+  width: 45%;
+  margin-left: 20%;
 
   @media (max-width: 768px) {
     margin-left: 15%;
