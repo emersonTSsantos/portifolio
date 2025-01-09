@@ -10,12 +10,21 @@ const Sobre = () => (
       apresentar.
     </Paragrafo>
     <Paragrafo tipo="secundario">
-      Estou vivendo a transição de carreira para programação e busco uma
-      oportunidade de estágio. Quero colocar em prática os conhecimentos que
-      adquiri e tenho um enorme desejo de aprender muito mais com sua equipe!
-      Tenho certeza que com o conhecimento que possuo vou agregar muito também.
-      Me coloco à disposição para participar do processo seletivo, e certamente
-      você não vai se decepcionar.
+      Sou desenvolvedor front-end com sólida experiência em React e TypeScript,
+      focado em criar interfaces intuitivas e eficientes. Tenho domínio em
+      ferramentas modernas como Redux Toolkit, React Router DOM, AJAX, Gulp,
+      além de habilidades em HTML, CSS e JavaScript.
+    </Paragrafo>
+    <Paragrafo tipo="secundario">
+      Além disso, possuo experiência com testes end-to-end utilizando Cypress,
+      conhecimentos básicos em Python e SQL, e uma abordagem orientada a
+      performance e qualidade. Já integrei APIs RESTful, implementei formulários
+      com validação avançada e desenvolvi páginas dinâmicas e responsivas.
+    </Paragrafo>
+    <Paragrafo tipo="secundario">
+      Sou movido por desafios e busco contribuir com soluções que aliem
+      funcionalidade e uma experiência de usuário impecável. Estou animado para
+      agregar ao time e colaborar no desenvolvimento de projetos impactantes!
     </Paragrafo>
     <GithubSecao>
       <img src="https://github-readme-stats.vercel.app/api?username=emersonTSsantos&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
